@@ -1,5 +1,9 @@
+import { createElement } from "react";
+import { render } from "ink";
+import { Introduce } from "./Jinho";
+
 const run = () => {
-  console.log("hi");
+  return render(createElement(Introduce));
 };
 
-run();
+export default run;
