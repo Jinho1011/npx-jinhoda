@@ -1,9 +1,9 @@
 import { createElement } from "react";
 import { render } from "ink";
-import { Introduce } from "./Jinho";
+import { Jinho } from "./Jinho";
 
 const run = () => {
-  return render(createElement(Introduce));
+  return render(createElement(Jinho));
 };
 
 export default run;
