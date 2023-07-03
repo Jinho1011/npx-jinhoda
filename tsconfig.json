@@ -1,10 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "es5",
-		"rootDir": "src",
-		"outDir": "dst",
 		"module": "esnext",
-		"strict": true,
 		"jsx": "react",
 		"esModuleInterop": true,
 		"moduleResolution": "NodeNext",
