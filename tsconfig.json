@@ -1,11 +1,12 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "rootDir": "src",
-    "outDir": "dst",
-    "module": "commonjs",
-    "strict": true,
-    "jsx": "react",
-    "esModuleInterop": true
-  }
+	"compilerOptions": {
+		"target": "es5",
+		"rootDir": "src",
+		"outDir": "dst",
+		"module": "esnext",
+		"strict": true,
+		"jsx": "react",
+		"esModuleInterop": true,
+		"moduleResolution": "NodeNext",
+	}
 }

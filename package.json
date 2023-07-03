@@ -1,13 +1,17 @@
 {
-  "name": "npx-jinhoda",
+  "name": "jinhoda",
   "version": "1.0.0",
   "description": "About Jeon Jinho",
   "main": "index.js",
+  "type": "module",
   "author": "JeonJinho",
   "license": "MIT",
+	"bin": {
+		"jinhoda": "./dst/run.js"
+	},
   "scripts": {
-    "start": "npx ts-node src/index.ts",
-    "prebuild": "rm -rf lib",
+    "start": "npx ts-node --esm src/run.ts",
+    "prebuild": "rm -rf dst",
     "build": "tsc -b"
   },
   "dependencies": {
