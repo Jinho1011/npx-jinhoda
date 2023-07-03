@@ -1,5 +1,5 @@
-#! /usr/bin/env node
+#! /usr/bin/env ts-node
 
-import run from ".";
+import { run } from "./index.js";
 
 run();

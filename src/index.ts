@@ -1,9 +1,7 @@
 import { createElement } from "react";
+// @ts-ignore
 import { render } from "ink";
-import { Jinho } from "./Jinho";
 
-const run = () => {
-  return render(createElement(Jinho));
-};
+import { Jinho } from "./Jinho.js";
 
-export default run;
+export const run = () => render(createElement(Jinho));
