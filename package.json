@@ -1,18 +1,22 @@
 {
 	"name": "jinho",
-	"version": "1.0.0",
+	"version": "1.0.6",
 	"description": "About Jeon Jinho",
 	"main": "index.js",
 	"type": "module",
 	"author": "jinhoda",
 	"license": "MIT",
 	"bin": {
-		"jinhoda": "./dst/run.js"
+		"jinho": "./dst/run.js"
 	},
+	"files": [
+		"dst"
+	],
 	"scripts": {
-		"start": "npx ts-node --esm src/run.ts",
-		"prebuild": "rm -rf dst",
-		"build": "tsc -b"
+		"prebuild": "rm -rf dst/*",
+		"build": "tsc -b",
+		"start": "npx ts-node ./src/run.ts",
+		"prepare": "rm -rf ./dst && tsc -b"
 	},
 	"dependencies": {
 		"ink": "^4.2.0",
