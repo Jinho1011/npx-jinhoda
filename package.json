@@ -6,9 +6,9 @@
   "type": "module",
   "author": "JeonJinho",
   "license": "MIT",
-	"bin": {
-		"jinhoda": "./dst/run.js"
-	},
+  "bin": {
+    "jinhoda": "./dst/run.js"
+  },
   "scripts": {
     "start": "npx ts-node --esm src/run.ts",
     "prebuild": "rm -rf dst",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
+    "eslint": "^8.44.0",
     "typescript": "^5.1.6"
   }
 }
