@@ -1,8 +1,14 @@
 {
 	"compilerOptions": {
-		"module": "esnext",
+		"rootDir": "src",
+		"outDir": "dst",
+		"preserveValueImports": false,
+		"module": "ESNext",
+		"moduleResolution": "Node",
 		"jsx": "react",
-		"esModuleInterop": true,
-		"moduleResolution": "NodeNext",
+		"esModuleInterop": true
+	},
+	"ts-node": {
+		"esm": true
 	}
 }
