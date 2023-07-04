@@ -5,7 +5,7 @@ import { Box, Text } from 'ink';
 export const Jinho = () => {
   return (
     <Box
-      width={'28'}
+      width={'40'}
       paddingTop={1}
       paddingBottom={1}
       paddingLeft={2}
